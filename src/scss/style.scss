@@ -81,18 +81,18 @@ body {
 }
 
 #book {
-	background-image: url('../src/assets/img/book.jpg');
+	background-image: url('../../../assets/img/book.jpg');
 }
 
 #bucket-img {
-	background-image: url('assets/img/bucket.png');
+	background-image: url('../../assets/img/bucket.png');
 	background-size: cover;
 	height: 260px;
 	width: 194px;
 }
 
 #discussion-graphic {
-	background-image: url('assets/img/05-discussion.jpg');
+	background-image: url('../../assets/img/discussion.jpg');
 	background-size: cover;
 	margin: 75px auto 0 auto;
 	height: 150px;
@@ -104,7 +104,7 @@ body {
   padding-left: 10px;
 }
 
-#front-page {
+#page-00 {
 	flex-direction: column;
 	align-items: center;
 }
@@ -167,7 +167,7 @@ h5 {
 }
 
 #history-graphic {
-	background-image: url('assets/img/01-book.jpg');
+	background-image: url('../../assets/img/book.jpg');
 	background-size: cover;
 	margin: 30px auto;
 	height: 150px;
@@ -175,26 +175,26 @@ h5 {
 }
 
 #how-graphic {
-	background-image: url('assets/img/how-it-works-xs.jpg');
+	background-image: url('../../assets/img/how-it-works-xs.jpg');
 	background-size: cover;
 	margin: 50px auto;
 	height: 280px;
 	width: 280px;
 
 	@media screen and (min-width: 400px) {
-		background-image: url('assets/img/how-it-works-sm.jpg');
+		background-image: url('../../assets/img/how-it-works-sm.jpg');
 		height: 340px;
 		width: 340px;
 	}
 	
 	@media screen and (min-width: 515px) {
-		background-image: url('assets/img/how-it-works-md.jpg');
+		background-image: url('../../assets/img/how-it-works-md.jpg');
 		height: 288px;
 		width: 450px;
 	}
 
 	@media screen and (min-width: 615px) {
-		background-image: url('assets/img/how-it-works-lg.jpg');
+		background-image: url('../../assets/img/how-it-works-lg.jpg');
 		height: 352px;
 		width: 550px;
 	}
@@ -441,4 +441,3 @@ ul {
 .underline {
 	text-decoration: underline;
 }
-
