@@ -17,4 +17,4 @@ const pageNine = `<section>
 			</ul>
 		</section>`;
 
-export default pageNine;
+export default pageNine
