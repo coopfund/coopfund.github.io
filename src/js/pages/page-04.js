@@ -13,7 +13,7 @@ const pageFour = `		<section>
 				<span class="bold sans">Decide</span> to become a member and <a href="#membership">sign up</a> with our online form
 			</li>
 			<li>
-				<span class="bold sans">Subscribe</span> with a minimum of $2/month. <span class="italic">You can increase your subscription if and when you have the means to do so.</span>
+				<span class="bold sans">Subscribe</span> with a minimum of $3/month. <span class="italic">You can increase your subscription if and when you have the means to do so.</span>
 			</li>
 			<span class="anchor-70px" id="loomio-ref"></span>
 			<li>
