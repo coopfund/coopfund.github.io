@@ -51,7 +51,7 @@ const pageFive = `		<section>
 			<input type="hidden" name="hosted_button_id" value="2MQPV23RZZF68">
 			<table class="paypal">
 			<tr><td><input type="hidden" name="on0" value="Monthly Amount -  (for custom amounts, contact Coop Fund)">Set up payment with PayPal: </td></tr><tr><td><select name="os0">
-				<option value="$24/year">$24/year : $2.00 USD - monthly</option>
+				<option value="$25/year">$25/year : $3.00 USD - monthly</option>
 				<option value="$60/year">$60/year : $5.00 USD - monthly</option>
 				<option value="$96/year">$96/year : $8.00 USD - monthly</option>
 				<option value="$120/year">$120/year : $10.00 USD - monthly</option>
