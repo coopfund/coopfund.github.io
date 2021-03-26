@@ -17,7 +17,7 @@ const pageFive = `		<section>
 			<div id="mc_embed_signup">
 			<form action="https://coopfund.us17.list-manage.com/subscribe/post?u=1a766887b6164ccef4a542f45&amp;id=75787ffc6d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate tyle="display: block; postion: relative; text-align: left; padding: 0 0 0 10px; font-size: 12px; max-width: 90%">
 			    <div id="mc_embed_signup_scroll">
-				<h2>Coop Fund Membership Form</h2>
+				<h2>Coop Fund Membership Form</h2> 
 			<div class="mc-field-group">
 				<label for="mce-FNAME">First Name </label>
 				<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">

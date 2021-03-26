@@ -12,7 +12,7 @@ const pageEight = `		<section>
 				<a href="#voting-ref">voting</a> - Members make their decisions based on whether a proposal is in line with the mission and purpose of Coop Fund. 
 			</p>
 			<p class="anchor-70px" id="workshop">
-				<span class="underline">workshop</span> - Coop Fund provides education and training for members and non members. <a href="http://artistsspace.org/programs/coop-fund-workshops" target="_blank">See dates for upcoming workshops.</a>
+				<span class="underline">workshop</span> - Coop Fund provides education and training for members and non members.
 			</p>
 			<div class="line-break"></div>
 			<div class="line-break"></div>

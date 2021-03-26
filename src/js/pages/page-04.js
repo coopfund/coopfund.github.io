@@ -15,7 +15,7 @@ const pageFour = `		<section>
 			<li>
 				<span class="bold sans">Subscribe</span> with a minimum of $3/month. <span class="italic">You can increase your subscription if and when you have the means to do so.</span>
 			</li>
-			<span class="anchor-70px" id="loomio-ref"></span>
+			<span class="anchor-70px" id="loomio-ref"></span> 
 			<li>
 				<span class="bold sans">Join</span> Coop Fund's discussion and voting forum on the online platform <a href="#loomio">Loomio</a>.
 			</li>
