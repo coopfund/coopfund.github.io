@@ -2,6 +2,9 @@ backend:
   name: github
   repo: coopfund/coopfund.github.io
   branch: main
+  auth_type: netlify
+
+site_url: https://www.coopfund.info
 
 media_folder: "assets"
 public_folder: "/assets"
