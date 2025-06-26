@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: coopfund/coopfund.github.io
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "config"
+    label: "Site Config"
+    files:
+      - label: "Site Settings"
+        name: "settings"
+        file: "_data/settings.json"
+        fields:
+          - {label: "Members", name: "members", widget: "string"}
+          - {label: "Balance", name: "balance", widget: "string"}
+          - {label: "Projects Funded", name: "projects", widget: "string"}

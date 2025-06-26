@@ -72,19 +72,19 @@
 				<div class="stat-header">
 					<h3>Total<br />Members</h3>
 				</div>
-				<h4 id="js-members">31</h4>
+				<h4 data-field="members">29</h4>
 			</div>
 			<div class="stat col-md-4">
 				<div class="stat-header">
 					<h3>Fund<br/>Balance</h3>
 				</div>
-				<h4 id="js-balance">$35.64</h4>
+				<h4 data-field="balance">$35.64</h4>
 			</div>
 			<div class="stat col-md-4">
 				<div class="stat-header">
 					<h3>Projects<br />Funded</h3>
 				</div>
-				<h4 id="js-projects">30</h4>
+				<h4 data-field="projects">31</h4>
 			</div>
 		</section>
 				<section class="summary">
@@ -537,5 +537,18 @@
 	</article>
 	<!-- end page-08 -->
 	</main>
+	<script>
+		/* Load dynamic values from admin CMS */
+    fetch('_data/settings.json')
+			.then(response => response.json())
+			.then(data => {
+				Object.keys(data).forEach(key => {
+					const element = document.querySelector(`[data-field="${key}"]`);
+					if (element && data[key]) {
+						element.textContent = data[key];
+					}
+				});
+			});
+  </script>
 	</body>
 </html>
